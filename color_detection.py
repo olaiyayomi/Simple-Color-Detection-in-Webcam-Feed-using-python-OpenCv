@@ -23,7 +23,8 @@ while True:
     kervel = np.ones((5,5), np.uint8)
     reduce = cv.morphologyEx(new, cv.MORPH_OPEN, kervel)
     
-    cv.imshow("video", reduce)
+    cv.imshow("reduce", reduce)
+    cv.imshow("frame", frame)
     
     key = cv.waitKey(1)
     

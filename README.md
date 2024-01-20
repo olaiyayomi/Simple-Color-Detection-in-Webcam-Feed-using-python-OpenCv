@@ -1,0 +1,2 @@
+# Simple-Color-Detection-in-Webcam-Feed-using-python-OpenCv
+This Python script utilizes OpenCV to perform simple color detection in real-time using your computer's webcam feed. The script converts each frame from the webcam to the HSV color space and applies a color range mask to isolate a specific color (in this case, blue). The resulting binary image is then subjected to morphological operations
